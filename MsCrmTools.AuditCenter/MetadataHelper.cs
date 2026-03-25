@@ -17,7 +17,6 @@ namespace MsCrmTools.AuditCenter
         {
             var entityQueryExpression = new EntityQueryExpression
             {
-                Properties = new MetadataPropertiesExpression("LogicalName", "DisplayName", "Attributes", "IsAuditEnabled", "ObjectTypeCode"),
                 AttributeQuery = new AttributeQueryExpression
                 {
                     Criteria = new MetadataFilterExpression
@@ -43,7 +42,6 @@ namespace MsCrmTools.AuditCenter
         {
             var entityQueryExpression = new EntityQueryExpression
             {
-                Properties = new MetadataPropertiesExpression("LogicalName", "DisplayName", "Attributes", "IsAuditEnabled", "ObjectTypeCode"),
                 AttributeQuery = new AttributeQueryExpression
                 {
                     Criteria = new MetadataFilterExpression
