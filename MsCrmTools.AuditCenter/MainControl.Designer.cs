@@ -1,4 +1,6 @@
-﻿namespace MsCrmTools.AuditCenter
+﻿//PR 3 — Bulk enable/disable table and column auditing with Save & Publish
+
+namespace MsCrmTools.AuditCenter
 {
     partial class MainControl
     {
