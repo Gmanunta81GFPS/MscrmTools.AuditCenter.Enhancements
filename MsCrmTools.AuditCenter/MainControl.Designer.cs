@@ -1,4 +1,5 @@
-﻿namespace MsCrmTools.AuditCenter
+﻿//PR 1 — Display audit retention period in global audit settings
+namespace MsCrmTools.AuditCenter
 {
     partial class MainControl
     {
